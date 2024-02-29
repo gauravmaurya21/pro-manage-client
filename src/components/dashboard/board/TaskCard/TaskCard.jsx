@@ -48,7 +48,7 @@ const TaskCard = ({ card, task, isExpanded, onToggle }) => {
   };
 
   const handleShare = () => {
-    const textToCopy = `${BASE_URL}/task/${card._id}`;
+    const textToCopy = `https://pro-manage-client-fis3.onrender.com/dashboard/task/${card._id}`;
 
     navigator.clipboard.writeText(textToCopy).then(() => {
       toast.success("Link copied");

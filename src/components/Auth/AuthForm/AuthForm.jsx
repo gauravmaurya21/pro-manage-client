@@ -53,7 +53,7 @@ const AuthForm = () => {
         setConfirmPassword("");
       } catch (error) {
         console.log(error);
-        if(error.response.status === 409)
+        if(error?.response?.status === 409)
         {
           toast(error.response.data.message, {
             icon: '❕',

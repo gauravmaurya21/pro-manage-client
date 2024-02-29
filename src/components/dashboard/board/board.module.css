@@ -1,0 +1,79 @@
+.baord__root
+{
+    height: 100vh;
+}
+.main__board
+{
+    height: 20%;
+    font-family: 'Poppins';
+    overflow-y: hidden;
+    width:98%;
+}
+
+.welcome__heading
+{
+    font-weight: 510;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.board__date
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+.board__header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    position: relative;
+}
+.board__heading
+{
+    font-size: 1.6rem;
+    font-weight: 510;
+    border: none;
+    outline: none;
+}
+
+.selected__value
+{
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: black;
+    cursor: pointer;
+}
+.selected__value img
+{
+    margin-left: 0.5rem;
+}
+.dropdown__menu
+{
+    position: absolute;
+    height: 5rem;
+    width: 8rem;
+    bottom: 1rem;
+    right: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.task__board
+{
+    display: flex;
+    width: 100vw;
+}
+.task__container
+{
+    width: 85vw;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 2rem;
+}
